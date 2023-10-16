@@ -36,7 +36,7 @@ describe('fetchCurrentWeather', () => {
 
       const result = await fetchCurrentWeather(1.0, 1.0);
 
-      expect(result).toEqual([]);
+      expect(result).toBeNull();
     });
   });
 });
@@ -48,7 +48,7 @@ describe('fetchCurrentWeather', () => {
 
       const result = await fetchCurrentWeather(1.0, 1.0);
 
-      expect(result).toEqual([]);
+      expect(result).toBeNull();
     });
   });
 });

@@ -60,11 +60,4 @@ The app has been tested on the following devices:
 iOS - iPhone SE (3rd Gen), iOS 16 (Simulator)
 Android - Samsung Galaxy S20, Android  (Device)
 
-*Please note, alternative devices / OS versions have not been tested so use at your own risk.* 
-
-## Known Issues / Improvements
-
-* Reduce complexity of HomeScreen
-* CurrentWeather / ForecastWeather components
-* Investigate Dependency Injection options for RN / TypeScript
-* Improve type-safety / nullability
+*Please note, alternative devices / OS versions have not been tested so use at your own risk.*
