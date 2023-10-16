@@ -32,6 +32,11 @@ The weather data displayed in the app is sourced from [OpenWeatherAPI](https://o
 2. Enter your GitHub username, when prompted
 3. Enter your GitHub password, when prompted
 
+## Update .env file
+
+1. Locate the `.env` file in the root of the project
+2. Update the value of `WEATHER_API_URL` to have the OpenWeatherAPI provided you have been provided (e.g. `WEATHER_API_URL=myToken123`)
+
 ## Installing the app
 
 1. Run `npm install` via the command line
@@ -46,8 +51,15 @@ From the root of the project:
 
 ## Launching the app
 
-1. Via the commad line, run `npm start`
-2. When presented with the options, select `i` for iOS or select `a` for Android
+### iOS
+Via the command line, run `npx react-native run-ios`
+
+When prompted, enter `i` to run
+
+### Android
+Via the command line, run `npx react-native run-android`
+
+When prompted, enter `a` to run
 
 ## Running unit tests
 
