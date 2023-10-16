@@ -29,13 +29,11 @@ The weather data displayed in the app is sourced from [OpenWeatherAPI](https://o
 ### Using Git
 
 1. Via the command line, enter `git clone https://github.com/craigdwalker/WeatherApp.git`
-2. Enter your GitHub username, when prompted
-3. Enter your GitHub password, when prompted
 
 ## Update .env file
 
 1. Locate the `.env` file in the root of the project
-2. Update the value of `WEATHER_API_URL` to have the OpenWeatherAPI provided you have been provided (e.g. `WEATHER_API_URL=myToken123`)
+2. Update the value of `WEATHER_API_TOKEN` to have the OpenWeatherAPI provided you have been provided (e.g. `WEATHER_API_TOKEN=myToken123`)
 
 ## Installing the app
 
@@ -63,7 +61,7 @@ When prompted, enter `a` to run
 
 ## Running unit tests
 
-* Via the command, run `npm test`
+* Via the command line, run `npm test`
 
 ## Device Testing
 
